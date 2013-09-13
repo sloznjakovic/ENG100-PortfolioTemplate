@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Emily Tran</title>
+		<link rel="stylesheet" type="text/css" href="css/website.css">
+		<link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+		
+		<script type="text/javascript" src="js/jquery-1.10.1.min.js">  </script>
+		<script type="text/javascript" src="js/sliding_effect.js">  </script>
+		<script type="text/javascript" src="js/website.js">  </script>
+		<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+		<!--[if IE 7]>
+		  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome-ie7.min.css">
+		<![endif]-->
+
+		<link rel="shortcut icon" href="img/emilytran.ico" type="image/x-icon" />
+	</head>
+	
+	<body>
+				<header><span id="banner"><span id="banner-0" class="text-emily">emily</span><span id="banner-1">tran</span></span></header>
+
+				
+		
+			
+
+				<div id="sliding-navigation">
+					<ul>
+						<li id="nav-home" class="sliding-element"> <a href="#home">home</a></li><br/>
+						<li id="nav-about" class="sliding-element"><a href="#about">about</a></li><br/>
+						<li id="nav-resume" class="sliding-element"><a href="#resume">resume</a></li><br/>
+						<li id="nav-projects" class="sliding-element"><a href="#projects">projects</a></li><br/>
+						<li id="nav-misc" class="sliding-element"><a href="#misc">misc</a></li><br/>
+						<li id="nav-contact" class="sliding-element"><a href="#contact">contact</a></li><br/>						
+					</ul>
+				</div> 
+				
+				<div id="header_area">
+				<div id="horizontal-bar"></div>
+				</div>
+				<div id="buffer"></div>
+				
+				<div id="page-container">
+				<span id="vertical-bar"></span>
+				
+				<div id="page-home" class="page">
+				
+			
+					Welcome to my personal website! <br/>
+					I started this website over the summer. <br/>
+					Still adding to it and fixing it up but feel free to look around! <br/>
+					<br/>
+					<span class="highlight">2013-08-27</span> <br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Adding descriptions in expandable sections<br/><br/>
+					
+					<span class="highlight">2013-08-26</span> <br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Adding photos to expandable sections<br/><br/>
+					
+					<span class="highlight">2013-06-23</span> <br/>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Started<br/><br/>
+					
+					
+    
+
+				</div>
+				
+				<div id="page-about" class="page">
+					<p class="para-about">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						
+					
+						Hi my name is Emily and I'm currently a <a target="_blank" class="about-link" href="http://www.cs.illinois.edu/">Computer Science</a> major 
+						at the <a target="_blank" class="about-link" href="http://www.illinois.edu">University of Illinois</a> at Urbana-Champaign. 
+						School is 2.5 hours away from where I'm originally from - <a target="_blank" class="about-link" href="http://www.cityofchicago.org/city/en.html">Chicago, Illinois</a> !
+						My hobbies include collecting <a target="_blank" class="about-link" href="http://www.lifehacker.com"> lifehacks</a>, reading various types of <a target="_blank" class="about-link" href="http://www.reddit.com/r/todayilearned/"> articles</a> online, 
+						five-starring all the songs on <a target="_blank" class="about-link" href="https://live.xbox.com/en-US/Profile?gamertag=summercrush">Dance Central</a>, 
+						experimenting with <a target="_blank" class="about-link" href="http://foodbeast.com/content/"> cooking</a>, trying everything once, and much more!
+						I'd say technical excellence, <a target="_blank" class="about-link" href="img/design-measuring-cups.png">good design</a>, human ingenuity, and <a target="_blank" class="about-link" href="http://www.urbandictionary.com/define.php?term=adventure">adventuring</a> are some of my favorite things. 			
+						
+						<br/><br/>	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						I chose to study <a target="_blank" class="about-link" href="http://www.code.org/">Computer Science</a> because it lets you to contribute to projects you believe in and enables you to 
+						implement the <a target="_blank" class="about-link" href="http://office.microsoft.com/en-us/onenote/">tools</a> that you think should exist to make everyday life a little bit easier...
+						or a lot more <a target="_blank" class="about-link" href="http://www.youtube.com/watch?v=V3SAS1xpQw0">awesome!</a>
+						Within CS, I especially like user-interface design, frontend web <a target="_blank" class="about-link" href="http://www.codecademy.com/emilytran">development</a>, 
+						and ultimately want to specialize in the field of HCI. Outside of academics, I love meeting people, getting involved in clubs, and participating in lots of events on campus! Find specifics on my resume page.
+						</p>
+						<img id="img-emilytran" src="img/emilytran.jpg"></img>
+				</div>
+				<div id="page-resume" class="page">
+				
+					<div class="resume-header">Education</div>
+					<div class="resume-block">
+						<span class="resume-highlight">University of Illinois,</span><span class="resume-location"> Urbana-Champaign, IL</span><span class="resume-date">August 2011 - May 2015</span><br/>
+
+						<span class="resume-highlight">Northside College Prepatory High School,</span><span class="resume-location"> Chicago, IL</span><span class="resume-date">September 2007 - June 2011</span><br/>
+
+						<span class="resume-highlight">John M Palmer Elementary School,</span><span class="resume-location"> Chicago, IL</span><span class="resume-date">September 1998 - June 2007</span><br/>
+					</div>
+					<br/><div class="resume-header">Work Experience <!--<i id="expand-about-work" class="icon-chevron-down btn-expand"></i>--></div>
+					<div class="resume-block">
+						<span class="resume-highlight">Microsoft,</span><span class="resume-location"> Program Manager Intern</span><span class="resume-date">May 2013 - Present</span><br/>
+						<div class="expand-about-work-item expand-item">
+							<div class="expand-text">
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+							</div>
+							<a href="img/projects/msft2013.jpg" target="_blank"><img src="img/projects/msft2013.jpg" class="expand-img"></a>
+						</div>
+						<span class="resume-highlight">Engineering at Illinois,</span><span class="resume-location"> Lead ENG 100 ELA for CS</span><span class="resume-date">April 2013 - Present</span><br/>
+						<div class="expand-about-work-item expand-item">
+							<div class="expand-text">
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+							</div>
+								<a href="img/projects/eng100.png" target="_blank"><img src="img/projects/eng100.png" class="expand-img"></a>
+						</div>
+						<span class="resume-highlight">Microsoft,</span><span class="resume-location"> Explorer Intern</span><span class="resume-date">May 2012 - August 2012</span><br/>
+						<div class="expand-about-work-item expand-item">
+							<div class="expand-text">
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+							</div>
+							<a href="img/projects/msft2012.jpg" target="_blank"><img src="img/projects/msft2012.jpg" class="expand-img"></a>
+						</div>
+						<span class="resume-highlight">Chicago Public Schools,</span><span class="resume-location"> Summer Intern</span><span class="resume-date">June 2011 - August 2011</span><br/>
+						<div class="expand-about-work-item expand-item">
+							<div class="expand-text">
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+								testing! text wall here. content coming soon. 
+							</div>
+							<a href="img/projects/cpsoracle.jpg" target="_blank"><img src="img/projects/cpsoracle.jpg" class="expand-img"></a>
+						</div>
+					</div>
+					
+					<br/><div class="resume-header">Activities <i id="expand-about-activity" class="icon-chevron-down btn-expand"></i></div>
+						<div class="resume-block">
+						
+						<span class="resume-highlight">Women in Computer Science (WCS),</span><span class="resume-location"> Vice President</span><span class="resume-date">May 2011 - Present</span><br/>
+						<div class="expand-about-activity-item expand-item">
+							<div class="expand-text">
+								
+								Responsible for organizing monthly general meetings with companies and assisting the President with officer oversight. 
+								Participated in mentoring, outreach, and tech team as well as social/professional functions. 
+								Learned to work with people, organize events, and gain sponsorship effectively. Benefited our org through creating our social networking presence, resume book initiative, & successful event ideas. 
+							</div>
+							<a href="img/projects/wcs.jpg" target="_blank"><img src="img/projects/wcs.jpg" class="expand-img"></a>
+						</div>
+						<span class="resume-highlight">Vietnamese Student Association (VSA),</span><span class="resume-location"> Family Day Performer, Member</span><span class="resume-date">August 2011 -Present</span><br/>
+						<div class="expand-about-activity-item expand-item">
+							<div class="expand-text">
+								Was a runway clothing model and performed two cultural dances (one fan dance and one traditional Vietnamese hat dance) for a Family Day event on campus. 
+								Also an active member participating in events such as Pho nights, date auctions, and general meetings. 
+							</div>
+							<a href="img/projects/vsa.jpg" target="_blank"><img src="img/projects/vsa.jpg" class="expand-img"></a>
+						</div>
+						
+						<span class="resume-highlight">Rube Goldberg Society (RGS),</span><span class="resume-location"> Design Committee, Weekly Builder</span><span class="resume-date">August 2012 - May 2013</span><br/>
+						<div class="expand-about-activity-item expand-item">
+							<div class="expand-text">
+								Was on the design committee and was a weekly builder to design and execute a Haunted-House themed Rube Goldberg Machine for Engineering Open House! Learned some mechanical engineering principles and how to use power tools. 
+							</div>
+							<a href="img/projects/rgs.jpg" target="_blank"><img src="img/projects/rgs.jpg" class="expand-img"></a>
+						</div>
+						<span class="resume-highlight">Society of Women Engineers (SWE),</span><span class="resume-location"> Active Member</span><span class="resume-date">August 2011 - Present</span><br/>
+						<div class="expand-about-activity-item expand-item">
+							<div class="expand-text">
+								Active member through attending general meetings and events to advance my knowledge of engineering-related, professional, and social opportunities. 
+							</div>
+							<a href="img/projects/swe.png" target="_blank"><img src="img/projects/swe.png" class="expand-img"></a>
+						</div>
+						<span class="resume-highlight">Women in Engineering (WIE),</span><span class="resume-location"> Lead Camp Counselor, Member</span><span class="resume-date">August 2011 - Present</span><br/>
+						<div class="expand-about-activity-item expand-item">
+							<div class="expand-text">
+								Lead camp counsellor responsible for facilitating about 200 freshmen women and several regular camp counsellors in the College of Engineering through orientation and team-building activities. 
+								Also assisted on a project to send every female incoming freshman handwritten postcards welcoming them to UIUC.
+							</div>
+							<a href="img/projects/wiecamp.jpg" target="_blank"><img src="img/projects/wiecamp.jpg" class="expand-img"></a>
+						</div>
+						</div>
+					
+					
+					<br/><div class="resume-header">Achievement and Awards</div>
+					
+					<div class="resume-block">
+					
+					<script>
+					var array_achievements = [];
+					array_achievements.push({"url": "https://wiki.engr.illinois.edu/display/studentawards/2013+Grace+Hopper+Celebration+Scholarship", "title":"Yahoo! Grace Hopper 2013 Scholarship, ", "description":"via UIUC & Yahoo!", "date":"June 2013"});
+					array_achievements.push({"url": "http://cs.illinois.edu/undergraduates/scholarships?quicktabs_3=1", "title":"UIUC & John Deere WCS Scholarship, ", "description":"John Deere & Company", "date":"October 2012"});
+					array_achievements.push({"url": "http://cs.illinois.edu/undergraduates/scholarships?quicktabs_3=1", "title":"Cisco Women's Computer Science Scholarship, ", "description":"Cisco Systems", "date":"June 2012"});
+					array_achievements.push({"url": "http://www.illinoisleadership.uiuc.edu/", "title":"Illinois Leadership Center I-Program Completion, ", "description":"INSIGHT, IGNITE", "date":"February 2012"});
+					array_achievements.push({"url": "http://www.ocachicago.org/scholar/", "title":"OCA-Chicago 2011 Scholarship, ", "description":"OCA-Chicago", "date":"November 2011"});
+					array_achievements.push({"url": "http://cs.illinois.edu/undergraduates/scholarships?quicktabs_3=1", "title":"Spyglass Endowed Scholarship, ", "description":"via UIUC & Doug and Margaret Colbeth", "date":"July 2011"});		
+					array_achievements.push({"url": "http://chicagoengineersfoundation.org/awards/", "title":"Engineering Student Incentive Award, ", "description":"Chicago Engineers' Foundation", "date":"June 2011"});
+					array_achievements.push({"url": "https://apstudent.collegeboard.org/exploreap/the-rewards/scholar-awards", "title":"AP Scholar Award, ", "description":"Collegiate Board", "date":"August 2011"});
+					array_achievements.push({"url": "https://awardportal.ncwit.org/comps.php?competitionId=27&action=detail", "title":"NCWIT Award For Aspirations in Computing, ", "description":"Illinois Affiliate", "date":"February 2011"});
+					for(var i=0;i<array_achievements.length;i++){
+							document.write('<span class="resume-highlight"><a class="about-link" target="_blank" href="'+ array_achievements[i].url + '">'+ array_achievements[i].title +'</a></span><span class="resume-location">'+ array_achievements[i].description + '</span><span class="resume-date">' + array_achievements[i].date + '</span><br/>');
+					}
+					</script>
+						</div>
+				
+				
+					<br/><div class="resume-header">Skills</div>
+					<div class="resume-block">
+						<div class="resume-location">
+						<span class="resume-highlight">Programming:</span> Java, C++, C, SQL, HTML/CSS, Javascript, jQuery<br/>
+						<span class="resume-highlight">Multimedia:</span> MS Suite, Adobe Photoshop, LaTeX<br/>
+						<span class="resume-highlight">Miscellaneous:</span> Leadership and Management Capability<br/> 
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						Creativity & Attention to Aestethic Detail<br/><br/><br/>
+						</div>
+					</div>
+
+				</div>
+
+				<div id="page-projects" class="page">
+				
+					<br/><div class="resume-header">Personal Projects<!--<i id="expand-project-personal" class="icon-chevron-down btn-expand"></i>--></div>
+						<span class="highlight">www.emilytran.me</span><br/>
+						<div class="expand-project-personal-item expand-item">
+							<div class="expand-text">
+								This website! Continuously adding and improving as I go to learn more about web development.
+							</div>
+							<!--<img src="http://placehold.it/200x140" class="expand-img">-->
+						</div>
+						
+					<br/><div class="resume-header">School Projects <i id="expand-project-school" class="icon-chevron-down btn-expand"></i></div>
+						<span class="highlight">PreReq, </span>CS 411 - Database Systems<br/>
+							<div class="expand-project-school-item expand-item">
+							<a href="http://www.youtube.com/watch?v=nLycgma7DHk" target="_blank"><img src="img/projects/prereq.jpg" class="expand-img"></a>
+						Worked with classmates on a prerequisite skill recommender using PHP with realtime text suggestions based off Wikipedia entities. 
+						The user could type in any skill they wanted to learn and based on crowd-sourced topic hierarchies and scraping existing prerequisites from Sparknotes, of which we maintained in SQL, were able to show suggested skills and allow them to add more. 
+							</div>
+						<span class="highlight">GroupMaker, </span>CS 465 - User Interface Design<br/>
+							<div class="expand-project-school-item expand-item">
+							<a href="img/projects/groupmaker.png" target="_blank"><img src="img/projects/groupmaker.png" class="expand-img"></a>
+							Worked with classmates to create a centralized website for group formation and assignment facilitation. 
+							We tried to solve the problem of how current project-based classes at UIUC have low student skill/interest visibility during team formation and inefficiencies when grading submitted assignments through wikis. 
+							We focused on the design, information organization, and UX of the site and used PHP. 
+							</div>
+							
+					<br/><div class="resume-header">Club Projects <i id="expand-project-club" class="icon-chevron-down btn-expand"></i></div>
+						<span class="highlight">Favicon Uploader for LED Animations, </span>Party Rock Illinois<br/>
+						<div class="expand-project-club-item expand-item">
+						<a href="img/projects/pri.jpg" target="_blank">
+						
+						<img src="img/projects/pri.jpg" class="expand-img">
+						</a>
+						
+						Co-created an automated Favicon image uploader written in java that took .ico images from a folder and loaded them into the Party Rock Illinois program to run and display an animated show onto 16x16 LED tiles as part of aa light show for Engineering Open House. 
+						</div>
+						<span class="highlight">WCS Collaborative Code Editor, </span>Women in Computer Science<br/>
+						<div class="expand-project-club-item expand-item">
+						<a href="img/projects/wcs-collab.pdf" target="_blank"><img src="img/projects/wcs-collab.png" class="expand-img"></a>
+						Helped guide the creation of a small tech team project to create a web app that was meant to collaboratively code for class or during interviews with syntax highlighting and real-time webcam chat. 
+						The TokBox API was used to afford webcam and mic communication and particular javascript code for syntax highlight depending on the selected programming language. 
+						Check out the poster I made for EOH!
+							
+						</div>
+						
+						<span class="highlight">Thinkering Interactive Recycle Bin, </span>Thinkering<br/>
+						<div class="expand-project-club-item expand-item">
+						<a href="img/projects/thinkering.jpg" target="_blank"><img src="img/projects/thinkering.jpg" class="expand-img"></a>
+						
+						Created animations on Adobe Flash to display above our smart recycle bin when used to incentivize green habits at school. 
+						Thinkering was a collaboration between my high school and the Illinois Institute of Technology. We worked with arduinos, 
+						laser sensors, and various materials to sense when paper was dropped through and had a display on a monitor as part of the recycling bin stand.
+						
+						</div>
+						
+					<br/><div class="resume-header">Internship Projects <i id="expand-project-internship" class="icon-chevron-down btn-expand"></i></div> 
+						<span class="highlight">Bing Ads Billing Dashboard, </span>Microsoft<br/> 
+							<div class="expand-project-internship-item expand-item">
+								<a href="img/projects/billingdashboard.png" target="_blank"><img src="img/projects/billingdashboard.png" class="expand-img"></a>
+								Designed, executed, and presented a POC of a dashboard meant to monitor the health of the Bing Ads Billing system. Displayed trends over time and critical KPIs. 
+								Overcame several challenges including big data (~8k records/hour), cross domain hopping, and auto-refresh. 
+								Utilized SQL, SSAS, and Powerview as the most dynamic business intelligence oriented interface for manipulating our data facts by their dimensions.
+							</div>
+							
+						<span class="highlight">Bing Ads Mobile, </span>Microsoft<br/>
+							<div class="expand-project-internship-item expand-item">
+								<a href="img/projects/bingadsmobile.png" target="_blank"><img src="img/projects/bingadsmobile.png" class="expand-img"></a>
+								Worked with a team of five interns to create a mobile web experience for Bing Ads where advertisers could quickly check on the health of and manage campaigns for ads on the go. 
+								The focus was a consistent UX across multiple mobile devices (iOS, Android, Windows Phone) and we conformed to the MVC framework as we worked from an existing codebase. 
+
+							</div>
+							
+					<br/><div class="resume-header">Hackathon Projects <i id="expand-project-hack" class="icon-chevron-down btn-expand"></i></div> 
+						<span class="highlight">What Am I Doing This Weekend?, </span>Facebook Summer of Hack 2nd place<br/> 
+							<div class="expand-project-hack-item expand-item">
+								<a href="http://www.youtube.com/watch?v=kTwtfmYSv1c" target="_blank"><img src="img/projects/whatamidoingthisweekend.png" class="expand-img"></a>
+								Hacked with team to create a heroku web app built on node.js utilizing HTML, CSS, Javascript and four APIs 
+								(Google, Facebook, Yelp, & Eventbrite) to simplify the discovery process of interesting and relevant events to attend and places to visit. 
+								Users can select from a list of suggested activities until they are ready to export them to a Facebook event with the description textarea pre-populated with useful details!
+							</div>
+							
+							<span class="highlight">Windows Phone Event Planner App, </span>Microsoft OSD Hackathon<br/>
+							<div class="expand-project-hack-item expand-item">
+								<a href="img/projects/adcenterhack.png" target="_blank"><img src="img/projects/adcenterhack.png" class="expand-img"></a>
+								Worked on a Windows Phone 7 App that delivered helpful results for planning three kinds of templated events (water parks, movies, and flight destinations). 
+									Each destination had a photo, wikipedia description, and generally useful information taken from Bing search results. 
+									Water parks included what to pack (sunscreen, flip flops), movies had showtimes from Bing movies, and flights had TSA guideline and baggage rule reminders based on the airline. 
+							</div>
+
+
+						
+					<br/><div class="resume-header">Design Projects (COMING SOON)<!--<i id="expand-project-design" class="icon-chevron-down btn-expand"></i>--></div>
+						<span class="highlight">Photoshop</span><br/>
+						<div class="expand-project-design-item expand-item">coming soon!</div>
+						<span class="highlight">Misc Art</span><br/>
+						<div class="expand-project-design-item expand-item">coming soon!</div>
+						<span class="highlight">Shirt Designs</span><br/>
+						<div class="expand-project-design-item expand-item">coming soon!</div>
+						<span class="highlight">Name Animations</span><br/>
+						<div class="expand-project-design-item expand-item">coming soon!</div>
+				</div>
+
+				<div id="page-misc" class="page">
+					misc on my site 
+				</div>
+				
+				<div id="page-contact" class="page">
+					<!-- Primary Contact<br/>-->
+					<span class="highlight">school email: </span> <a href="mailto:etran5@illinois.edu">etran5@illinois.edu</a><br/>
+					<span class="highlight">personal email: </span> <a href="mailto:emilyt@outlook.com">emilyt@outlook.com</a><br/>
+					<span class="highlight">facebook: </span><a target="_blank" href="https://www.facebook.com/effervescent">https://www.fb.com/effervescent</a><br/>
+					<span class="highlight">linkedin: </span><a target="_blank"href="http://www.linkedin.com/in/emtran/">http://www.linkedin.com/in/emtran/</a><br/>
+					<!--
+					<br/><br/>Other Social Media Platforms!<br/>
+					<span class="highlight">spotify: </span><a target="_blank"href="https://play.spotify.com/user/127364223">https://play.spotify.com/user/127364223</a><br/>
+					<span class="highlight">codecademy: </span><a target="_blank"href="http://www.codecademy.com/emilytran">www.codecademy.com/emilytran</a><br/>
+					<span class="highlight">youtube: </span><a target="_blank"href="http://www.youtube.com/user/emilytran2011">http://www.youtube.com/user/emilytran2011</a><br/>
+					<span class="highlight">xbox: </span><a target="_blank"href="https://live.xbox.com/en-US/Profile?gamertag=summercrush">https://live.xbox.com/en-US/Profile?gamertag=summercrush</a><br/>
+					-->
+					
+				</div>
+				</div>
+
+				<script type="text/javascript">
+				  var _gaq = _gaq || [];
+				  _gaq.push(['_setAccount', 'UA-36517413-1']);
+				  _gaq.push(['_trackPageview']);
+
+				  (function() {
+					var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+					ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+					var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+				  })();
+				</script>
+	</body>
+	
+
+</html>
